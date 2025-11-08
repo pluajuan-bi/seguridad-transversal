@@ -7,7 +7,7 @@ metadata:
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: cicd-binding-dt
+  name: cicd-binding
   namespace: pluaj-dev-dev
 subjects:
 - kind: ServiceAccount
